@@ -1,0 +1,23 @@
+name: tempro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - scikit-learn
+  - psutil
+  - pyzmq
+  - openssl
+  - zeromq
+  - zstd
+  - tornado
+  - tk
+  - readline
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - tensorflow-macos
+      - fair-esm==2.0.0
+
